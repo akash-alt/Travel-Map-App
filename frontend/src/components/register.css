@@ -1,0 +1,53 @@
+.register-form{
+    width:220px;
+    height:220px;
+    display: flex;
+    justify-content:space-around;
+    flex-direction:column;
+}
+.container{
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;bottom: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    color: indigo;
+}
+.registerbtn{
+    border: none;
+    padding: 5px;
+    background-color: slateblue;
+    color: #fff;
+    cursor: pointer;
+}
+.success{
+    color: green;
+    font-size: 12px;
+    text-align: center;
+}
+.failure{
+    color: red;
+   font-size: 12px;
+   text-align: center;
+}
+.cancelbtn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
